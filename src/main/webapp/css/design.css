@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	overflow: hidden;
+	list-style: none;
+}
+ul li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding:10px 20px;
+}
+li a:hover{
+	background-color: blue;
+	cursor:pointer;
+}
+header{
+	background-color: blue;
+	padding-top:20px;
+}
+header a,header .titleCenter{
+	color: white;
+}
+footer{
+	background-color: blue;
+	height: 80px;
+}
+footer p{
+	text-align: center;
+	color:white;
+	line-height: 80px;
+}
+nav{
+	background-color: #3384c6;
+}
+.titleCenter{
+	text-align: center;
+}
+.mainContent{
+	height: 700px;
+}
+.mainContent form{
+	text-align: center;
+}
+.mainContent table{
+	border-collapse:collapse;
+	display:inline-block;
+	border:1px solid black;
+}
+.mainContent th{
+	text-align: center;
+	width:250px;
+	padding:10px;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+.mainContent td{
+	padding:10px;
+	border-bottom:1px solid black;
+	text-align: left;
+}
+.mainContent button{
+	width:80px;
+	height:40px;
+}
+#li td{
+	border:1px solid black;
+	text-align:center;
+}
+#li{
+	border:none;
+}
+#li th{
+	border:1px solid black;
+	text-align:center;
+}
